@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-some file
-=======
 something
->>>>>>> WHardyUW/main
