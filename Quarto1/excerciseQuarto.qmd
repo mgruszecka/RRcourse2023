@@ -18,6 +18,25 @@ execute:
 ```{python}
 import pandas as pd
 viewers = pd.read_csv("sherlock_viewers.csv", sep=";")
-viewers
 
+viewers
+```
+
+## Viewership over time
+```{python}
+import matplotlib.pyplot as plt
+plt.plot(viewers["Aired"],viewers["Viewers"])
+plt.ylabel("Number of viewers in UK [mln]")
+plt.xlabel("Year")
+plt.show()
+```
+
+
+## Viewership over season
+```{python}
+import matplotlib.pyplot as plt
+plt.plot(viewers["Series"],viewers["Viewers"])
+plt.ylabel("Number of viewers in UK [mln]")
+plt.xlabel("Season")
+plt.show()
 ```
