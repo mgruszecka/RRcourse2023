@@ -13,3 +13,11 @@ execute:
 ## Photo 
 
 ![](Sherlock.jpg)
+
+## Summary of viewership 
+```{python}
+import pandas as pd
+viewers = pd.read_csv("sherlock_viewers.csv", sep=";")
+viewers
+
+```
