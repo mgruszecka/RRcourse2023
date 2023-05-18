@@ -2,7 +2,9 @@
 title: "Quarto Excercise"
 author: "Magdalena Gruszecka"
 date: "4/26/2023"
-format: html
+format: 
+  html:
+    theme: cosmo
 execute:
   echo: true
 ---
